@@ -1,21 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import { Navbar } from './react_assignments/intro/nav'
-import { Main } from './react_assignments/intro/main'
-
+import "./App.css";
+import { Inventory } from "./components/Inventory";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-
-    {/* day-1 assignments from react-assignmnets/intro */}
-      <Navbar/>
-      <Main/>
-   {/* day-1 assignments from react-assignmnets/intro */}
-
+      <Inventory />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
